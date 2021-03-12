@@ -1,82 +1,82 @@
 @font-face {
     font-family: "AlexandriaFLF";
-    src: url(/fonts/AlexandriaFLF.ttf);
+    src: url(fonts/AlexandriaFLF.ttf);
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "AlexandriaFLF-Bold";
-    src: url(/fonts/AlexandriaFLF-Bold.ttf);
+    src: url(fonts/AlexandriaFLF-Bold.ttf);
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: "ChunkFive";
-    src: url(/fonts/ChunkFive.ttf);
+    src: url(fonts/ChunkFive.ttf);
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Colaborate Light";
-    src: url(/fonts/Colaborate-Light.otf);
+    src: url(fonts/Colaborate-Light.otf);
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Colaborate Medium";
-    src: url(/fonts/Colaborate-Medium.otf);
+    src: url(fonts/Colaborate-Medium.otf);
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Colaborate Regulare";
-    src: url(/fonts/Colaborate-Regulare.otf);
+    src: url(fonts/Colaborate-Regulare.otf);
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Colaborate Thin";
-    src: url(/fonts/Colaborate-Thin.otf);
+    src: url(fonts/Colaborate-Thin.otf);
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Contra Italic";
-    src: url(/fonts/Contra-Italic.ttf);
+    src: url(fonts/Contra-Italic.ttf);
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Contra";
-    src: url(/fonts/Contra.ttf);
+    src: url(fonts/Contra.ttf);
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Flare Light Gothic";
-    src: url(/fonts/Flare-Light-Gothic.ttf);
+    src: url(fonts/Flare-Light-Gothic.ttf);
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Freeport";
-    src: url(/fonts/Freeport.ttf);
+    src: url(fonts/Freeport.ttf);
     font-weight: 400;
     font-style: italic;
 }
 
 .body {
-    background-image: url("/images/header/bg_header.png");
+    background-image: url("images/header/bg_header.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center top;
@@ -110,7 +110,7 @@ ul {
 
 .header-logo-image {
     width: 55px;
-    background-image: url("/images/header/logo_shape.png");
+    background-image: url("images/header/logo_shape.png");
     background-size: 37px auto;
     background-repeat: no-repeat;
     background-position: right 10px top 16px;
@@ -336,7 +336,7 @@ h1 {
     margin-top: 30px;
     padding-top: 9px;
     border-radius: 7px;
-    background-image: url("/images/header/button-slidebar.png");
+    background-image: url("images/header/button-slidebar.png");
     background-repeat: no-repeat;
     background-size: contain;
     font-family: "Colaborate Medium";
@@ -349,7 +349,7 @@ h1 {
 }
 
 .button-slidebar:hover {
-    background-image: url("/images/header/button-slidebar-link.png");
+    background-image: url("images/header/button-slidebar-link.png");
 }
 
 .button-slidebar-shadow {
@@ -357,7 +357,7 @@ h1 {
     width: 180px;
     height: 26px;
     margin-top: 10px;
-    background-image: url("/images/header/shadow-button.png");
+    background-image: url("images/header/shadow-button.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
@@ -386,7 +386,7 @@ h1 {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: url("/images/header/ipad-header-shadow.png");
+    background-image: url("images/header/ipad-header-shadow.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -402,7 +402,7 @@ h1 {
     position: relative;
     box-sizing: border-box;
     width: 239px;
-    background-image: url("/images/aside/box-bg.png");
+    background-image: url("images/aside/box-bg.png");
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 5px;
@@ -436,7 +436,7 @@ h1 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url("/images/aside/e.png"), url("/images/aside/ipad.png");
+    background-image: url("images/aside/e.png"), url("images/aside/ipad.png");
     background-repeat: no-repeat;
     background-position: left 20px top 19px, right 0 top 8px;
     background-size: 28px auto 146px auto;
@@ -449,7 +449,7 @@ h1 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url("/images/aside/ipad-2.png"), url("/images/aside/side1.png"), url("/images/aside/side2.png");
+    background-image: url("images/aside/ipad-2.png"), url("images/aside/side1.png"), url("images/aside/side2.png");
     background-repeat: no-repeat;
     background-position: left 50px top 9px, left 27px top 41px, right 28px top 41px;
     background-size: 28px auto 146px auto;
@@ -462,7 +462,7 @@ h1 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url("/images/aside/media.png");
+    background-image: url("images/aside/media.png");
     background-repeat: no-repeat;
     background-position: left 62px top 23px;
 }
@@ -474,7 +474,7 @@ h1 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url("/images/aside/bricks.png"), url("/images/aside/New.png");
+    background-image: url("images/aside/bricks.png"), url("images/aside/New.png");
     background-repeat: no-repeat;
     background-position: left 46px top 11px, right 0 top 0px;
     background-size: 28px auto 146px auto;
@@ -497,17 +497,17 @@ h1 {
 }
 
 .tools-container:nth-child(1) {
-    background-image: url("/images/aside-2/discover_icon.png");
+    background-image: url("images/aside-2/discover_icon.png");
     background-repeat: no-repeat;
 }
 
 .tools-container:nth-child(2) {
-    background-image: url("/images/aside-2/Browse_icon.png");
+    background-image: url("images/aside-2/Browse_icon.png");
     background-repeat: no-repeat;
 }
 
 .tools-container:nth-child(3) {
-    background-image: url("/images/aside-2/dev_icon.png");
+    background-image: url("images/aside-2/dev_icon.png");
     background-repeat: no-repeat;
 }
 
@@ -557,7 +557,7 @@ h2 {
     margin-right: auto;
     margin-top: 35px;
     width: 676px;
-    background-image: url("/images/aside-3/news_bg.png");
+    background-image: url("images/aside-3/news_bg.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -572,7 +572,7 @@ h2 {
     width: 24px;
     height: 26px;
     border: 0;
-    background-image: url("/images/aside-3/left_arrow.png");
+    background-image: url("images/aside-3/left_arrow.png");
     background-color: unset;
     background-repeat: no-repeat;
     background-position: center center;
@@ -584,7 +584,7 @@ h2 {
 }
 
 .news-button-left:hover {
-    background-image: url("/images/aside-3/left_arrow_hover.png");
+    background-image: url("images/aside-3/left_arrow_hover.png");
 }
 
 .news-button-right {
@@ -592,7 +592,7 @@ h2 {
     width: 24px;
     height: 26px;
     border: 0;
-    background-image: url("/images/aside-3/right_arrow.png");
+    background-image: url("images/aside-3/right_arrow.png");
     background-color: unset;
     background-repeat: no-repeat;
     background-position: center center;
@@ -604,7 +604,7 @@ h2 {
 }
 
 .news-button-right:hover {
-    background-image: url("/images/aside-3/right_arrow_hover.png");
+    background-image: url("images/aside-3/right_arrow_hover.png");
 }
 
 .news-content {
@@ -638,7 +638,7 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     width: 977px;
-    background-image: url("/images/main/ipads.png");
+    background-image: url("images/main/ipads.png");
     background-repeat: no-repeat;
     background-position: left 15px top 36px;
 }
@@ -672,7 +672,7 @@ h3 {
 .main-content-list {
     margin-top: 49px;
     list-style-position: inside;
-    list-style-image: url("/images/main/mark.png");
+    list-style-image: url("images/main/mark.png");
 }
 
 .main-content-item {
@@ -695,7 +695,7 @@ h3 {
     width: 132px;
     height: 36px;
     border-radius: 10px;
-    background-image: url("/images/main/button.png");
+    background-image: url("images/main/button.png");
     background-repeat: no-repeat;
     background-size: contain;
     font-family: "Colaborate Regulare";
@@ -716,7 +716,7 @@ h3 {
 }
 
 .button-main-content:hover {
-    background-image: url("/images/main/button-hover.png");
+    background-image: url("images/main/button-hover.png");
     box-shadow: 0 0 5px rgba(00, 00, 00, 0.7);
 }
 
@@ -725,7 +725,7 @@ h3 {
     margin-right: 160px;
     margin-bottom: 32px;
     list-style-position: inside;
-    list-style-image: url("/images/main/mark_2.png");
+    list-style-image: url("images/main/mark_2.png");
 }
 
 .bottom-list-item {
@@ -745,7 +745,7 @@ h3 {
 }
 
 .footer {
-    background-image: url("/images/footer/footer_bg.png");
+    background-image: url("images/footer/footer_bg.png");
     background-position: center top;
     background-size: cover;
 }
@@ -764,7 +764,7 @@ blockquote {
     padding-bottom: 24px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("/images/footer/line.png"), url("/images/footer/titter_icon.png");
+    background-image: url("images/footer/line.png"), url("images/footer/titter_icon.png");
     background-repeat: no-repeat;
     background-position: center top 1px, left 43px top 15px;
     font-family: "Contra";
@@ -967,30 +967,30 @@ h4 {
 }
 
 .social__item_twitter {
-    background-image: url("/images/footer/twitter_icon.png");
+    background-image: url("images/footer/twitter_icon.png");
     background-size: contain;
 }
 
 .social__item_twitter:hover {
-    background-image: url("/images/footer/twitter_icon_hover.png");
+    background-image: url("images/footer/twitter_icon_hover.png");
 }
 
 .social__item_facebook {
-    background-image: url("/images/footer/facebook_icon.png");
+    background-image: url("images/footer/facebook_icon.png");
     background-size: contain;
 }
 
 .social__item_facebook:hover {
-    background-image: url("/images/footer/facebook_icon_hover.png");
+    background-image: url("images/footer/facebook_icon_hover.png");
 }
 
 .social__item_linkedin {
-    background-image: url("/images/footer/likedin_icon.png");
+    background-image: url("images/footer/likedin_icon.png");
     background-size: contain;
 }
 
 .social__item_linkedin:hover {
-    background-image: url("/images/footer/likedin_icon_hover.png");
+    background-image: url("images/footer/likedin_icon_hover.png");
 }
 
 .copyrights {
