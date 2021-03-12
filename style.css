@@ -1,0 +1,1011 @@
+@font-face {
+    font-family: "AlexandriaFLF";
+    src: url(/fonts/AlexandriaFLF.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AlexandriaFLF-Bold";
+    src: url(/fonts/AlexandriaFLF-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ChunkFive";
+    src: url(/fonts/ChunkFive.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Colaborate Light";
+    src: url(/fonts/Colaborate-Light.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Colaborate Medium";
+    src: url(/fonts/Colaborate-Medium.otf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Colaborate Regulare";
+    src: url(/fonts/Colaborate-Regulare.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Colaborate Thin";
+    src: url(/fonts/Colaborate-Thin.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Contra Italic";
+    src: url(/fonts/Contra-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Contra";
+    src: url(/fonts/Contra.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Flare Light Gothic";
+    src: url(/fonts/Flare-Light-Gothic.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Freeport";
+    src: url(/fonts/Freeport.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+.body {
+    background-image: url("/images/header/bg_header.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    background-color: #e7e8ea;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 37px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-logo {
+    display: flex;
+}
+
+.header-logo-image {
+    width: 55px;
+    background-image: url("/images/header/logo_shape.png");
+    background-size: 37px auto;
+    background-repeat: no-repeat;
+    background-position: right 10px top 16px;
+    text-align: center;
+}
+
+.header-logo-image-i {
+    font-family: "Freeport";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 51px;
+    color: #1f1f31;
+}
+
+.header-logo-name {
+    width: 200px;
+    padding-top: 20px;
+    font-family: "Flare Light Gothic";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 39px;
+    color: #ffffff;
+    line-height: 0.6;
+}
+
+.logo-name {
+    font-family: "Franklin Gothic Book";
+    font-size: 17px;
+}
+
+.header-logo-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header-menu {
+    display: flex;
+    box-sizing: border-box;
+    list-style-type: none;
+    padding-top: 35px;
+    margin-right: 80px;
+}
+
+.header-menu-list {
+    font-family: "Colaborate Light";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.header-menu-link {
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    color: #d7d7e3;
+}
+
+.header-menu-link:hover {
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #161628;
+}
+
+.header-menu-list:nth-child(n+2) {
+    margin-left: 8px;
+}
+
+.visually-hidden {
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+}
+
+.header-slidebar {
+    display: flex;
+    width: 1065px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-left-container {
+    display: flex;
+    align-items: center;
+    height: 450px;
+}
+
+.button-left {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: unset;
+    border: 0;
+    cursor: pointer;
+}
+
+.button-left:focus {
+    outline: 0;
+}
+
+.button-left::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 0;
+    border-radius: 40px;
+    background-color: #161628;
+    opacity: 0.3;
+}
+
+.button-left:hover {
+    border: 0;
+    border-radius: 40px;
+    background-color: #161628;
+}
+
+.button-left-image {
+    position: relative;
+    padding-top: 2px;
+    z-index: 2;
+}
+
+.button-right-container {
+    display: flex;
+    align-items: center;
+    height: 450px;
+}
+
+.button-right {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: unset;
+    border: 0;
+    cursor: pointer;
+}
+
+.button-right:focus {
+    outline: 0;
+}
+
+.button-right::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 0;
+    border-radius: 40px;
+    background-color: #161628;
+    opacity: 0.3;
+}
+
+.button-right:hover {
+    border: 0;
+    border-radius: 40px;
+    background-color: #161628;
+}
+
+.button-right-image {
+    position: relative;
+    padding-top: 2px;
+    z-index: 2;
+}
+
+h1 {
+    margin: 0;
+}
+
+.slidebar-content {
+    box-sizing: border-box;
+    width: 225px;
+    margin-left: 110px;
+    margin-top: 100px;
+    text-align: right;
+}
+
+.text-slidebar-1 {
+    font-family: "ChunkFive";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    color: #e7e8ea;
+    text-transform: uppercase;
+}
+
+.text-slidebar-2 {
+    font-family: "AlexandriaFLF";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 39px;
+    color: #d7d7e3;
+}
+
+.text-slidebar-3 {
+    display: inline-block;
+    padding-bottom: 3px;
+    font-family: "AlexandriaFLF-Bold";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 39px;
+    color: #d7d7e3;
+}
+
+.text-slidebar-4 {
+    display: inline-block;
+    width: 170px;
+    font-family: "Colaborate Thin";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    color: #e7e8ea;
+    line-height: 1.25;
+}
+
+.button-slidebar {
+    display: inline-block;
+    width: 180px;
+    height: 45px;
+    margin-top: 30px;
+    padding-top: 9px;
+    border-radius: 7px;
+    background-image: url("/images/header/button-slidebar.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: "Colaborate Medium";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 23px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button-slidebar:hover {
+    background-image: url("/images/header/button-slidebar-link.png");
+}
+
+.button-slidebar-shadow {
+    display: inline-block;
+    width: 180px;
+    height: 26px;
+    margin-top: 10px;
+    background-image: url("/images/header/shadow-button.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.slidebar-container {
+    display: flex;
+}
+
+.ipad-image {
+    position: relative;
+    z-index: 2;
+}
+
+.slidebar-images {
+    position: relative;
+    margin-top: 57px;
+    margin-left: 43px;
+    margin-right: 140px;
+}
+
+.slidebar-images::after {
+    content: "";
+    position: absolute;
+    top: 290px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("/images/header/ipad-header-shadow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.utilits {
+    display: flex;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.utilits-container {
+    position: relative;
+    box-sizing: border-box;
+    width: 239px;
+    background-image: url("/images/aside/box-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #161628;
+}
+
+.utilits-container:hover {
+    box-shadow: 0 0 10px rgba(00, 00, 00, 0.4);
+    color: #8c8c92;
+}
+
+.utilits-container:nth-child(n+2) {
+    margin-left: 16px;
+}
+
+.utilits-text {
+    padding-top: 122px;
+    padding-bottom: 10px;
+    font-family: "Calibri";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+}
+
+.utilits-container:nth-child(1)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/images/aside/e.png"), url("/images/aside/ipad.png");
+    background-repeat: no-repeat;
+    background-position: left 20px top 19px, right 0 top 8px;
+    background-size: 28px auto 146px auto;
+}
+
+.utilits-container:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/images/aside/ipad-2.png"), url("/images/aside/side1.png"), url("/images/aside/side2.png");
+    background-repeat: no-repeat;
+    background-position: left 50px top 9px, left 27px top 41px, right 28px top 41px;
+    background-size: 28px auto 146px auto;
+}
+
+.utilits-container:nth-child(3)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/images/aside/media.png");
+    background-repeat: no-repeat;
+    background-position: left 62px top 23px;
+}
+
+.utilits-container:nth-child(4)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/images/aside/bricks.png"), url("/images/aside/New.png");
+    background-repeat: no-repeat;
+    background-position: left 46px top 11px, right 0 top 0px;
+    background-size: 28px auto 146px auto;
+}
+
+.tools {
+    display: flex;
+    width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+
+.tools-container {
+    width: 290px;
+}
+
+.tools-container:nth-child(n+2) {
+    margin-left: 48px;
+}
+
+.tools-container:nth-child(1) {
+    background-image: url("/images/aside-2/discover_icon.png");
+    background-repeat: no-repeat;
+}
+
+.tools-container:nth-child(2) {
+    background-image: url("/images/aside-2/Browse_icon.png");
+    background-repeat: no-repeat;
+}
+
+.tools-container:nth-child(3) {
+    background-image: url("/images/aside-2/dev_icon.png");
+    background-repeat: no-repeat;
+}
+
+h2 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.tools-title {
+    display: block;
+    padding-left: 42px;
+    font-family: "Colaborate Light";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 0.93;
+    text-decoration: none;
+}
+
+.tools-title:hover {
+    opacity: 0.8;
+}
+
+.tools-title-many {
+    font-size: 25px;
+    color: #505050;
+}
+
+.tools-subtitle {
+    padding-left: 2px;
+    font-size: 15px;
+    color: #5f7390;
+}
+
+.tools-content {
+    padding-top: 20px;
+    font-family: "Colaborate Light";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #505050;
+    line-height: 1.429;
+}
+
+.news {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    width: 676px;
+    background-image: url("/images/aside-3/news_bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.news:hover {
+    box-shadow: 0 8px 15px -17px rgba(00, 00, 00, 0.4), 0 -8px 15px -17px rgba(00, 00, 00, 0.4);
+}
+
+.news-button-left {
+    margin-top: 23px;
+    width: 24px;
+    height: 26px;
+    border: 0;
+    background-image: url("/images/aside-3/left_arrow.png");
+    background-color: unset;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+}
+
+.news-button-left:focus {
+    outline: none;
+}
+
+.news-button-left:hover {
+    background-image: url("/images/aside-3/left_arrow_hover.png");
+}
+
+.news-button-right {
+    margin-top: 23px;
+    width: 24px;
+    height: 26px;
+    border: 0;
+    background-image: url("/images/aside-3/right_arrow.png");
+    background-color: unset;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+}
+
+.news-button-right:focus {
+    outline: none;
+}
+
+.news-button-right:hover {
+    background-image: url("/images/aside-3/right_arrow_hover.png");
+}
+
+.news-content {
+    padding-right: 42.5px;
+    padding-left: 37.5px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-family: "Contra";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #828181;
+    text-align: center;
+}
+
+.news-text-link {
+    text-decoration: none;
+    color: #687b96;
+}
+
+.news-text-link:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    margin: 0;
+}
+
+.main-container {
+    margin-top: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 977px;
+    background-image: url("/images/main/ipads.png");
+    background-repeat: no-repeat;
+    background-position: left 15px top 36px;
+}
+
+.main-container-title {
+    padding-left: 261px;
+    line-height: 0.95;
+}
+
+.main-title {
+    font-family: "Colaborate Light";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    color: #505050;
+}
+
+.main-subtitle {
+    padding-left: 5px;
+    font-family: "Colaborate Light";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #5f7390;
+}
+
+.main-content {
+    padding-left: 430px;
+}
+
+.main-content-list {
+    margin-top: 49px;
+    list-style-position: inside;
+    list-style-image: url("/images/main/mark.png");
+}
+
+.main-content-item {
+    font-family: "Colaborate Light";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #828181;
+}
+
+.main-content-item:nth-child(n+2) {
+    margin-top: 15px;
+}
+
+.button-main-content {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding-top: 6px;
+    width: 132px;
+    height: 36px;
+    border-radius: 10px;
+    background-image: url("/images/main/button.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: "Colaborate Regulare";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button-main-content:nth-child(2) {
+    margin-left: 27px;
+}
+
+.button-main-content:last-child {
+    margin-left: 23px;
+}
+
+.button-main-content:hover {
+    background-image: url("/images/main/button-hover.png");
+    box-shadow: 0 0 5px rgba(00, 00, 00, 0.7);
+}
+
+.bottom-list {
+    margin-top: 45px;
+    margin-right: 160px;
+    margin-bottom: 32px;
+    list-style-position: inside;
+    list-style-image: url("/images/main/mark_2.png");
+}
+
+.bottom-list-item {
+    box-sizing: border-box;
+    border-bottom: 1px solid #d7d8da;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    font-family: "Colaborate Light";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #828181;
+}
+
+.bottom-list-item:first-child {
+    border-top: 1px solid #d7d8da;
+}
+
+.footer {
+    background-image: url("/images/footer/footer_bg.png");
+    background-position: center top;
+    background-size: cover;
+}
+
+blockquote {
+    margin: 0;
+}
+
+.footer-quote {
+    position: relative;
+    box-sizing: border-box;
+    width: 1073px;
+    padding-left: 144px;
+    padding-right: 200px;
+    padding-top: 14px;
+    padding-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("/images/footer/line.png"), url("/images/footer/titter_icon.png");
+    background-repeat: no-repeat;
+    background-position: center top 1px, left 43px top 15px;
+    font-family: "Contra";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.923;
+    color: #afafb7;
+}
+
+.footer-quote-sign {
+    position: absolute;
+    bottom: 2px;
+    right: 147px;
+    font-family: "Contra Italic";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 15px;
+    color: #c2c2c6;
+}
+
+.visually-hidden {
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+}
+
+.footer-container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+h4 {
+    margin: 0;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe-form {
+    width: 350px;
+    font-family: "Colaborate Light";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.subscribe-title {
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.subscribe-description {
+    font-size: 14px;
+    line-height: 1.43;
+    color: #b8b8bc;
+}
+
+.subscribe-input {
+    margin-top: 17px;
+    margin-right: 15px;
+    margin-left: -2px;
+    width: 211px;
+    height: 26px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-top: 1px solid #313140;
+    border-left: 1px solid #40404f;
+    border-right: 1px solid #40404f;
+    border-bottom: 1px solid #4d4d5c;
+    border-radius: 7px;
+    background-color: #242439;
+    box-shadow: inset 2px 2px 5px #000000;
+    font-family: "Colaborate Light";
+    font-weight: 400;
+    font-style: normal;
+    color: #5e5e5a;
+}
+
+.subscribe-input:focus {
+    outline: 0;
+    background-color: #ffffff;
+    color: #242439;
+}
+
+.subscribe-button {
+    width: 85px;
+    height: 29px;
+    border: 0;
+    border-radius: 7px;
+    background-color: white;
+    font-family: "Colaborate Light";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #363648;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    border: 1px solid #4d4d5c;
+    background-color: #242439;
+    font-family: "Colaborate Light";
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.submit-form {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: "Colaborate Light";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.submit-title {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.submit-input {
+    display: block;
+    margin-top: 11px;
+    margin-right: 11px;
+    margin-left: -2px;
+    width: 211px;
+    height: 26px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-top: 1px solid #313140;
+    border-left: 1px solid #40404f;
+    border-right: 1px solid #40404f;
+    border-bottom: 1px solid #4d4d5c;
+    border-radius: 7px;
+    background-color: #242439;
+    box-shadow: inset 2px 2px 5px #000000;
+    color: #5e5e5a;
+}
+
+.submit-textarea {
+    width: 192px;
+    margin-top: 37px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-top: 1px solid #313140;
+    border-left: 1px solid #40404f;
+    border-right: 1px solid #40404f;
+    border-bottom: 1px solid #4d4d5c;
+    border-radius: 7px;
+    background-color: #242439;
+    box-shadow: inset 2px 2px 5px #000000;
+    font-family: "Colaborate Light";
+    font-weight: 400;
+    font-style: normal;
+    color: #5e5e5a;
+    resize: none;
+}
+
+.submit-textarea:focus {
+    outline: 0;
+    background-color: #ffffff;
+    color: #242439;
+}
+
+.submit-button {
+    position: absolute;
+    bottom: -45px;
+    right: 0;
+}
+
+.social-copyrights-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.social {
+    display: flex;
+    margin-right: 120px;
+}
+
+.social__item:nth-child(n+2) {
+    margin-left: 15px;
+}
+
+.social__link {
+    display: block;
+    width: 37px;
+    height: 37px;
+}
+
+.social__item_twitter {
+    background-image: url("/images/footer/twitter_icon.png");
+    background-size: contain;
+}
+
+.social__item_twitter:hover {
+    background-image: url("/images/footer/twitter_icon_hover.png");
+}
+
+.social__item_facebook {
+    background-image: url("/images/footer/facebook_icon.png");
+    background-size: contain;
+}
+
+.social__item_facebook:hover {
+    background-image: url("/images/footer/facebook_icon_hover.png");
+}
+
+.social__item_linkedin {
+    background-image: url("/images/footer/likedin_icon.png");
+    background-size: contain;
+}
+
+.social__item_linkedin:hover {
+    background-image: url("/images/footer/likedin_icon_hover.png");
+}
+
+.copyrights {
+    font-family: "Colaborate Light";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #b7b7bc;
+}
+
+.copyrights__link {
+    text-decoration: none;
+    color: #b7b7bc;
+}
+
+.copyrights__link:hover {
+    text-decoration: underline;
+}
